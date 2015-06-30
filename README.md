@@ -16,12 +16,14 @@ Install as you normally install an npm module:
 
 ## Usage
 
+First, export a Blocktrail ``` APIKEY ``` and ``` APISECRET ``` by creating an API Key from your account on Blocktrail.
+
 To use the blocktrail API, simply require the module.
 ```javascript
   var blocktrailAPI = require('blocktrail-unofficial');
   var commonBlockchain = blocktrailAPI({ network: 'mainnet' });
 ```
-For Mainnet, use ```blocktrailAPI({ network: 'mainnet' })``` when calling a function. For Testnet, use ```blocktrailAPI({ network: 'testnet' })``` when calling a function. By default, if no parameter is provided, Mainnet will be used.
+For Mainnet, use ``` blocktrailAPI({ network: 'mainnet' }) ``` when calling a function. For Testnet, use ``` blocktrailAPI({ network: 'testnet' }) ``` when calling a function. By default, if no parameter is provided, Mainnet will be used.
 
 [See abstract-common-blockchain for API](https://github.com/blockai/abstract-common-blockchain/blob/master/README.md)
 

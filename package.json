@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howardwu/blocktrail-unofficial.git"
+    "url": "git+https://github.com/howardwu/blocktrail-unofficial.git"
   },
   "keywords": [
     "address",
@@ -26,5 +26,12 @@
   "maintainers": {
     "Howard Wu": "howardwu@berkeley.edu",
     "Andrew Malta": "andrew.malta@yale.edu"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
