@@ -1,0 +1,30 @@
+{
+  "name": "blocktrail-unofficial",
+  "version": "1.0.0",
+  "description": "A Blocktrail adapter built to standardize the output of requests to follow the common-blockchain convention",
+  "main": "index.js",
+  "dependencies": {
+    "blocktrail-sdk": "^1.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/howardwu/blocktrail-unofficial.git"
+  },
+  "keywords": [
+    "address",
+    "bitcoin",
+    "blockchain",
+    "blocktrail",
+    "transaction"
+  ],
+  "author": "Howard Wu",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/howardwu/blocktrail-unofficial/issues"
+  },
+  "homepage": "https://github.com/howardwu/blocktrail-unofficial#readme",
+  "maintainers": {
+    "Howard Wu": "howardwu@berkeley.edu",
+    "Andrew Malta": "andrew.malta@yale.edu"
+  }
+}
