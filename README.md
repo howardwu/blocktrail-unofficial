@@ -16,7 +16,9 @@ Install as you normally install an npm module:
 
 ## Usage
 
-First, export a Blocktrail ``` APIKEY ``` and ``` APISECRET ``` by creating an API Key from your account on Blocktrail.
+Run ``` npm install ``` to have all necessary node modules installed.
+
+Export a Blocktrail ``` APIKEY ``` and ``` APISECRET ``` by creating an API Key from your account on Blocktrail.
 
 To use the blocktrail API, simply require the module.
 ```javascript
