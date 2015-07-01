@@ -1,6 +1,6 @@
 {
   "name": "blocktrail-unofficial",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Blocktrail adapter built to standardize the output of requests to follow the common-blockchain convention",
   "main": "index.js",
   "dependencies": {
