@@ -42,7 +42,7 @@ blocktrailAPI({ network: 'testnet' }).Transactions.Latest(function (err, resp) {
 blocktrailAPI({ network: 'mainnet' }).Transactions.Outputs({
   outputs: [
     {
-      vout: 0,
+      vout: 1,
       txId: "186efd8689fc403e5cc6faeef9497fcf177750b52afe55f407244d0c95625836"
     }
   ]
