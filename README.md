@@ -23,7 +23,11 @@ Export a Blocktrail ``` APIKEY ``` and ``` APISECRET ``` by creating an API Key 
 To use the blocktrail API, simply require the module.
 ```javascript
   var blocktrailAPI = require('blocktrail-unofficial');
-  var commonBlockchain = blocktrailAPI({ network: 'mainnet' });
+  var commonBlockchain = blocktrailAPI({ 
+    network: 'mainnet',
+    apiKey: process.env.APIKEY,
+    apiSecret: process.env.APISECRET
+  });
 ```
 For Mainnet, use ``` blocktrailAPI({ network: 'mainnet' }) ``` when calling a function. For Testnet, use ``` blocktrailAPI({ network: 'testnet' }) ``` when calling a function. By default, if no parameter is provided, Mainnet will be used.
 
