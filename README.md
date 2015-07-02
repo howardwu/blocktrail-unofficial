@@ -27,6 +27,8 @@ To use the blocktrail API, simply require the module.
 ```
 For Mainnet, use ``` blocktrailAPI({ network: 'mainnet' }) ``` when calling a function. For Testnet, use ``` blocktrailAPI({ network: 'testnet' }) ``` when calling a function. By default, if no parameter is provided, Mainnet will be used.
 
+## API
+
 [See abstract-common-blockchain for API](https://github.com/blockai/abstract-common-blockchain/blob/master/README.md)
 
 ## Examples
