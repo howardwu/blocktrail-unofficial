@@ -1,5 +1,5 @@
-var commonBlockchainMainnetTests = require('../../abstract-common-blockchain/tests/mainnet');
-var commonBlockchainTestnetTests = require('../../abstract-common-blockchain/tests/testnet');
+var commonBlockchainMainnetTests = require('abstract-common-blockchain/tests/mainnet');
+var commonBlockchainTestnetTests = require('abstract-common-blockchain/tests/testnet');
 var test = require('tape');
 var biteasyAPI = require('../');
 
