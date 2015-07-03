@@ -24,7 +24,6 @@ blocktrailAPI({ network: 'mainnet' }).Addresses.Summary([
   console.log(resp);
 });
 
-
 /** TRANSACTIONS **/
 
 blocktrailAPI({ network: 'mainnet' }).Addresses.Transactions([
@@ -48,7 +47,6 @@ blocktrailAPI({ network: 'mainnet' }).Addresses.Transactions([
   if (err) console.log(err);
   console.log(resp);
 });
-
 
 /** UNSPENTS **/
 

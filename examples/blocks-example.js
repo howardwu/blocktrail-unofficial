@@ -25,7 +25,6 @@ blocktrailAPI({ network: 'mainnet' }).Blocks.Get([
   console.log(resp);
 });
 
-
 /** LATEST **/
 
 blocktrailAPI({ network: 'mainnet' }).Blocks.Latest(function (err, resp) {
@@ -38,7 +37,7 @@ blocktrailAPI({ network: 'testnet' }).Blocks.Latest(function (err, resp) {
   console.log(resp);
 });
 
-/** PROPOGATE **/
+/** PROPAGATE **/
 
 blocktrailAPI({ network: 'mainnet' }).Blocks.Propagate({
   blockHex: ''
