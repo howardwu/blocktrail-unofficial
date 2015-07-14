@@ -31,17 +31,21 @@ To use the blocktrail API, simply require the module.
 ```
 For Mainnet, use ``` blocktrailAPI({ network: 'mainnet' }) ``` when calling a function. For Testnet, use ``` blocktrailAPI({ network: 'testnet' }) ``` when calling a function. By default, if no parameter is provided, Mainnet will be used.
 
-## API
-
-[See abstract-common-blockchain for API](https://github.com/blockai/abstract-common-blockchain/blob/master/README.md)
-
-## Test
+## Tests
 
 Run ``` npm test ``` to have [abstract-common-blockchain](https://github.com/blockai/abstract-common-blockchain/blob/master/README.md) run a suite of tests on Addresses, Blocks, and Transactions. The tests are comprehensive with complete code coverage - see documentation in abstract-common-blockchain for further details.
 
-## Examples
+## API Examples
+
+[See abstract-common-blockchain for API](https://github.com/blockai/abstract-common-blockchain/blob/master/README.md)
 
 There are examples for using Addresses, Blocks, and Transactions, provided in the /examples folder. Each function includes a Mainnet and Testnet sample call and where possible, an invalid example is provided to show error handling. Expect all returns to be of the form (error, response).
+
+## Request Limits
+
+Blocktrail has a request limit of 86,400 API requests per 24 hours, at a rate of 1 request per second. Burst capabilities are available at 2 requests per second at ten minute intervals. Therefore, large arrays of inputs to blocktrail-unofficial may result in errors or long wait times for responses due to the constricted nature of Blocktrail's request limit.
+
+[Information on Blocktrail's Request Limits](https://www.blocktrail.com/api/docs#rate_limits)
 
 ## Convention
 
